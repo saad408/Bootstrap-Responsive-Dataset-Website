@@ -1,0 +1,128 @@
+.firstbg{
+    background-image: url(images/sliderbg.jpg);
+    width: 100%;
+    height: 608px;
+    background-size: cover;
+    padding-top: 3rem;
+}
+.firstbut{
+    background-color: #ff49ab;
+    color: white;
+    border: 0;
+}
+.firsticon{
+    border-right: 1px solid white;
+    margin-right: 4px;
+    padding-right: 4px;
+
+}
+.nav-item{
+    padding-right: 17px;
+}
+.navb{
+    border-radius: 8px;
+}
+.cw{
+    color: white;
+}
+.secondbut{
+    border-left: 1px solid white;
+}
+.secondbuta{
+    border-radius: 0;
+}
+.hehe{
+    opacity: 0;
+}
+.third {
+    justify-content: center;
+}
+.thirda {
+    color: #ff49ab;
+}
+.thirdb{
+    color: #383a89;
+}
+.thirdc{
+    border: 0;
+}
+.thirdd{
+    display: flex;
+    align-items: center;
+}
+.thirde{
+    display: flex;
+    justify-content: center;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+.fiftha{
+    height: 79px;
+    width: 88px;
+}
+.sixtha{
+    padding: 3px;
+    border: 2px solid #ff49ab;
+    /* border-radius: 25px; */
+    height: 35px;
+    text-align: center;
+    width: 39px;
+}
+.sixthb{
+    border: 0;
+}
+.eigth{
+    font-size: x-large;
+}
+.ninth{
+    background-color: #383a89;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.secondlrimg{
+    position: absolute;
+    top: 70%;
+}
+.sad{
+    height: 274px;
+}
+.seconddd{
+    animation: fade linear;
+    animation-timeline: view();
+}
+
+@media (max-width: 498px) {.secondlrimg{
+    top: -30%;
+  }
+    
+}
+@keyframes fade {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translate();
+    }
+    100%{
+        transform: translate();
+    }
+}
